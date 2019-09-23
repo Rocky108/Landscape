@@ -1,0 +1,53 @@
+import turtle
+
+g = turtle.Turtle()
+
+g.pu()
+g.right(90)
+g.forward(150)
+g.right(90)
+g.pd()
+g.begin_fill()
+g.fillcolor("forestgreen")
+g.forward(500)
+g.left(90)
+g.forward(200)
+g.left(90)
+g.forward(1000)
+g.left(90)
+g.forward(200)
+g.left(90)
+g.forward(500)
+g.end_fill()
+
+s = turtle.Turtle()
+s.right(90)
+s.pu()
+s.forward(150)
+s.right(90)
+s.pd()
+s.begin_fill()
+s.fillcolor("skyblue")
+s.forward(500)
+s.right(90)
+s.forward(1000)
+s.right(90)
+s.forward(1000)
+s.right(90)
+s.forward(1000)
+s.right(90)
+s.forward(500)
+s.end_fill()
+
+t = turtle.Turtle()
+
+t.right(90)
+t.pu()
+t.forward(150)
+t.right(90)
+t.forward(100)
+t.right(90)
+
+
+
+turtle.exitonclick()
